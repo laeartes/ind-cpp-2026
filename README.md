@@ -16,3 +16,34 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 - [x] Pasirinkta projekto tematika
 
 
+## U1 - Klasė. Laukai ir metodai
+Įgyvendinama klasė `Character`
+
+### Funkcionalumai
+
+- [ ] Kiekvienas objektas turi unikalų ID.
+- [ ] Atmintyje sekamas gyvų objektų kiekis.
+- [ ] Aprašyti konstruktorius ir destruktorius
+- [ ] Realizuoti veikėjo būseną keičiantys metodai.
+
+### Laukai
+
+- [ ] `ID` - veikėjo identifikatorius
+- [ ] `name` - veikėjo vardas
+- [ ] `health` - gyvybių kiekis
+- [ ] `level` - veikėjo lygis
+- [ ] `aliveCount` - skaitliukas sekti gyvų kiekė
+- [ ] `nextID` - ID generatorius
+
+### Metodai
+
+- [ ] `takeDamage(int)`
+- [ ] `heal(int)`
+- [ ] `levelUp()`
+- [ ] `die()`
+- [ ] `printStatus()`
+- [ ] `getAliveCount()`
+
+### Testavimas
+
+- [ ] /shrug
