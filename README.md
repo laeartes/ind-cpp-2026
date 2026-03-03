@@ -21,37 +21,34 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 
 ### Funkcionalumai
 
-- [ ] Kiekvienas objektas turi unikalų ID.
-- [ ] Atmintyje sekamas gyvų objektų kiekis.
-- [ ] Aprašyti konstruktorius ir destruktorius
-- [ ] Realizuoti veikėjo būseną keičiantys metodai.
+- [x] Kiekvienas objektas turi unikalų ID.
+- [x] Atmintyje sekamas gyvų objektų kiekis.
+- [x] Aprašyti konstruktorius ir destruktorius
+- [x] Realizuoti veikėjo būseną keičiantys metodai.
 
 ### Laukai
 
-- [ ] `ID` - veikėjo identifikatorius
-- [ ] `name` - veikėjo vardas
-- [ ] `health` - gyvybių kiekis
-- [ ] `level` - veikėjo lygis
-- [ ] `aliveCount` - skaitliukas sekti gyvų kiekė
-- [ ] `nextID` - ID generatorius
+- [x] `ID` - veikėjo identifikatorius
+- [x] `name` - veikėjo vardas
+- [x] `health` - gyvybių kiekis
+- [x] `level` - veikėjo lygis
+- [x] `aliveCount` - skaitliukas sekti gyvų kiekė
+- [x] `nextID` - ID generatorius
 
 ### Metodai
 
-- [ ] `takeDamage(int)`
-- [ ] `heal(int)`
-- [ ] `levelUp()`
-- [ ] `die()`
-- [ ] `printStatus()`
-- [ ] `getAliveCount()`
+- [x] `takeDamage(int)`
+- [x] `heal(int)`
+- [x] `levelUp()`
+- [x] `die()`
+- [x] `printStatus()`
+- [x] `getAliveCount()`
+- [x] `getHealth()`
+- [x] `getLevel()`
 
 ### Testavimas
 
-- [ ] /shrug
-
-
-
-
-
+- [x] tests.cpp
 
 
 

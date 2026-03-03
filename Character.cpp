@@ -1,4 +1,4 @@
-#include <Character.h>
+#include "Character.h"
 
 
 //static vars
@@ -18,14 +18,22 @@ Character::Character(const std::string& name, int health, int level)
 //destrukting
 Character::~Character(){
 
-    if(health > 0) aliveCount--; //numires ir taip destruktyvus
+    if(health >= 0) aliveCount--;
     std::cout << "Character " << this->name << " destroyed\n";
 
 }
 
 void Character::takeDamage(int dmg){
 
-    if (health <= 0) return; //You Can't Kill What's Already Dead
+    if (health <= 0){
+        //You Can't Kill What's Already Dead
+        std::cout << "[WARNING]: already dead: " << ID << " aka " << name << "\n";
+        return;
+    }
+    if (dmg < 0){
+        std::cout << "[WARNING]: negative damage\n";
+        return;
+    }
     health -= dmg;
     std::cout << name << " taken " << dmg << " damage\n";
     if (health <= 0){
@@ -37,7 +45,18 @@ void Character::takeDamage(int dmg){
 
 void Character::heal(int amount){
 
-    if (health<=0) return; //not even sure if this gets triggered, but extra safety
+    if (health<=0){//not even sure if this gets triggered, but extra safety
+        std::cout << "[WARNING]: already dead: " << ID << " aka " << name << "\n";
+        return;
+    }
+
+    if(amount < 0){
+
+        std::cout << "[WARNING]: negative healing amount\n";
+        return;
+
+    }
+
     health += amount;
     std::cout << name << " healed " << amount << " health\n";
 
@@ -46,7 +65,7 @@ void Character::heal(int amount){
 void Character::levelUp(){
 
     level++;
-    std::cout << name << " leveled up to " << level;
+    std::cout << name << " leveled up to " << level << "\n";;
 
 }
 
@@ -74,3 +93,14 @@ int Character::getAliveCount(){
 
 }
 
+int Character::getHealth(){
+
+    return health;
+
+}
+
+int Character::getLevel(){
+
+    return level;
+
+}

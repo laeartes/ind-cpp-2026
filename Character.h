@@ -27,6 +27,8 @@ class Character{
         //info stuff
         void printStatus() const;
         static int getAliveCount();
+        int getHealth();
+        int getLevel();
 };
 
 
