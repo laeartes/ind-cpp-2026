@@ -1,21 +1,19 @@
 #include <iostream>
-#include <string>
 
-using namespace std;
 
-class Character {
+class Character{
     private:
         static int nextID;
         static int aliveCount;
 
         int ID;
-        string name;
+        std::string name;
         int health;
         int level;
 
     public:
         //konstrukting
-        Character( const string& name, int health = 100, int level = 1);
+        Character( const std::string& name, int health = 100, int level = 1);
 
         //destrukting
         ~Character();
