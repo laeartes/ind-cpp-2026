@@ -50,7 +50,7 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 
 - [x] tests.cpp
 
-
+## U2 - TBD
 
 
 ## Projekto progresas
