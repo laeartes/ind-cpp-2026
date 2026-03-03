@@ -58,6 +58,6 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 | Užduotis | Statusas |
 | -------- | -------- |
 | U0       | DONE       |
-| U1       | IN PROGRESS       |
+| U1       | DONE       |
 | U2       | NOT STARTED        |
 | U3       | NOT STARTED        |
