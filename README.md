@@ -47,3 +47,20 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 ### Testavimas
 
 - [ ] /shrug
+
+
+
+
+
+
+
+
+
+## Projekto progresas
+
+| Užduotis | Statusas |
+| -------- | -------- |
+| U0       | DONE       |
+| U1       | IN PROGRESS       |
+| U2       | NOT STARTED        |
+| U3       | NOT STARTED        |
