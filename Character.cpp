@@ -18,7 +18,7 @@ Character::Character(const std::string& name, int health, int level)
 //destrukting
 Character::~Character(){
 
-    if(health >= 0) aliveCount--;
+    if(health > 0) aliveCount--;
     std::cout << "Character " << this->name << " destroyed\n";
 
 }
