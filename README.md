@@ -50,7 +50,17 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 
 - [x] tests.cpp
 
-## U2 - TBD
+## U2 - Kompozicija
+
+- [ ] Realizaciją atskirti į atskirą klasę panaudojant pimpl idiomą.
+- [ ] Antraštės faile naudoti išankstinę deklaraciją (forward declaration).
+- [ ] Realizacijos objektą kurti dinaminėje atmintyje.
+- [ ] Įgyvendinti gilų kopijavimą (deep copy) korektiškam klasės veikimui.
+- [x] Išskaidyti kodą į antraštės (.h), realizacijos (.cpp) ir testo (main()) failus.
+- [ ] Parašyti Makefile, palaikantį all, .o failų kūrimą, .exe kūrimą, clean bei build komandas.
+- [ ] Numatyti išimtines situacijas, panaudoti throw sakinius ir sukurti savo išimties klasę.
+- [ ] Ištestuoti tiek sėkmingus atvejus, tiek pačias išimtis (patikrinant jų tipą).
+- [ ] Testų rezultatus išvesti tiek į ekraną, tiek į tekstinį failą.
 
 
 ## Projekto progresas
@@ -59,5 +69,5 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 | -------- | -------- |
 | U0       | DONE       |
 | U1       | DONE       |
-| U2       | NOT STARTED        |
+| U2       | IN PROGRESS        |
 | U3       | NOT STARTED        |
