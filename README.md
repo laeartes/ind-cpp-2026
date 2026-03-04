@@ -32,7 +32,7 @@ Projektas modeliuoja kompiuterinio žaidimo veikėją, turinį konkrečią būse
 - [x] `name` - veikėjo vardas
 - [x] `health` - gyvybių kiekis
 - [x] `level` - veikėjo lygis
-- [x] `aliveCount` - skaitliukas sekti gyvų kiekė
+- [x] `aliveCount` - skaitliukas sekti gyvų kiekį
 - [x] `nextID` - ID generatorius
 
 ### Metodai
